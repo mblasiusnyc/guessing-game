@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Guessing Game</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS Styles -->
+    <link href="css/mystyles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 guess-area" > 
+          <h1>Welcome to The Guessing Game!</h1>
+          <h3>Make your guess in the space below</h3>
+
+          <input id="guess-input" class="center" placeholder="Input number between 1-100.">
+
+          <h3 id="feedback-text" class="hidden"></h3>
+
+          <h4 id="guess-list" class="hidden"></h4>
+
+          
+          <button id="submit-guess" type="button" class="btn btn-default btn-lg btn-block">Submit Guess</button>
+
+          <button id="see-previous-guesses" type="button" class="btn btn-default btn-lg btn-block">See Previous Guesses</button>
+
+
+          <button id="reveal-the-answer" type="button" class="btn btn-default btn-lg btn-block">Reveal the Answer</button>
+
+          <button id="start-new-game" type="button" class="btn btn-default btn-lg btn-block last-button">Start New Game</button>
+
+          <h3><span id="guesses-remaining">5</span> Guesses Remaining</h3>
+
+        </div><!-- col-md-4 col-md-offset-4 -->
+      </div><!-- row -->
+    </div><!-- container -->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+    <script type="text/javascript" src="js/myJS.js" ></script>
+    
+
+  </body>
+</html>

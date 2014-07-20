@@ -1,0 +1,33 @@
+h1, h3, h4 {
+	text-align: center;
+	padding: 10px 15px;
+}
+
+input {
+	display: block;
+	width: 150px;
+	height: 100px;
+	margin: 20px auto;
+	text-align: center;
+	padding: 5px;
+}
+
+.last-button {
+	margin-bottom: 20px;
+}
+
+.container {
+	background-color: yellow;
+	margin: 50px auto;
+	border-radius: 15px;
+	width: 50%;
+}
+
+body {
+	background-color: #000;
+}
+
+.hidden {
+	visibility: hidden;
+	font-weight: bold;
+}
